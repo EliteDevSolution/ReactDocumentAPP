@@ -1,0 +1,54 @@
+/* @import "~react-perfect-scrollbar/dist/css/styles.css"; */
+
+#root,
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #e3e7f0;
+    color: rgba(var(--body), 0.87);
+}
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div,
+a {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+p {
+    color: rgba(var(--body), 0.74);
+}
+img {
+    max-width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 20px;
+}
+
+.test {
+    -webkit-box-flex: unset;
+}
